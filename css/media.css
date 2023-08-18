@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+:root{
+    --font-size-ss:0.8rem;
+    --font-size-s:1rem;
+    --font-size-mm:1.5rem;
+    --font-size-m:1.8rem;
+    --font-size-ll:2rem;
+    --font-size-l:2.2rem;
+}
+
+@media(min-width : 480px){
+    :root{
+    --font-size-s:1rem;
+    --font-size-ss:1.3rem;
+    --font-size-mm:2rem;
+    --font-size-m:2.3rem;
+    --font-size-ll:2.8rem;
+    --font-size-l:3.2rem;
+}
+}
+
+@media(min-width : 1024px){
+    :root{
+     --font-size-s:1.5rem;
+    --font-size-ss:1.8rem;
+    --font-size-mm:2.5rem;
+    --font-size-m:3rem;
+    --font-size-ll:4rem;
+    --font-size-l:5.2rem;
+}
+}
